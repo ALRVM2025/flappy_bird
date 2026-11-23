@@ -45,7 +45,7 @@ async def welcomeScreen():
         await asyncio.sleep(0) # Отдаем управление браузеру
 
 async def mainGame():
-    score = 1000
+    score = 0
     playerx = int(SCREENWIDTH/5)
     playery = int(SCREENWIDTH/2)
     basex = 0
